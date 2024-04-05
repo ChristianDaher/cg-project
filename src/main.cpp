@@ -1,25 +1,7 @@
-#include <stdio.h>
-#include <GL/glut.h>
+#include "glad/glad.h"
+#include <GLFW/glfw3.h>
 
-void display()
+int main(int argc, char **argv)
 {
-    glClear(GL_COLOR_BUFFER_BIT);
-    glFlush();
-}
-
-int main(int argc, char** argv)
-{
-    // Initialize GLUT
-    glutInit(&argc, argv);
-    glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
-    glutInitWindowSize(640, 480);
-    glutCreateWindow("Hello World");
-
-    // Set display function
-    glutDisplayFunc(display);
-
-    // Main loop
-    glutMainLoop();
-
     return 0;
 }
