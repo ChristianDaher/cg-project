@@ -1,4 +1,5 @@
 #define STB_IMAGE_IMPLEMENTATION
+
 #include "resource_manager.h"
 #include <iostream>
 #include <sstream>

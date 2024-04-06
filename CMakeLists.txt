@@ -11,7 +11,7 @@ find_package(glfw3 REQUIRED)
 set(SOURCES
     src/main.cpp
     src/game/game.cpp
-    src/renderer/renderer.cpp
+    src/sprite_renderer/sprite_renderer.cpp
     src/input/input.cpp
     src/texture/texture.cpp
     src/shader/shader.cpp

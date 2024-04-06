@@ -3,9 +3,7 @@
 
 #include <map>
 #include <string>
-
 #include <glad/glad/glad.h>
-
 #include "texture/texture.h"
 #include "shader/shader.h"
 
