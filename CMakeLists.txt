@@ -13,8 +13,12 @@ set(SOURCES
     src/game/game.cpp
     src/renderer/renderer.cpp
     src/input/input.cpp
+    src/texture/texture.cpp
+    src/shader/shader.cpp
+    src/resource_manager/resource_manager.cpp
     lib/glad/glad.c
 )
+
 
 include_directories(${CMAKE_SOURCE_DIR}/src)
 include_directories(${CMAKE_SOURCE_DIR}/lib)
